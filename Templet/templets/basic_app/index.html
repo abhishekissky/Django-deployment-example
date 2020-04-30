@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends 'basic_app/basic.html' %}
+    
+    {% block 'body_block' %}
+    <h1>This is index and welcome to index.html</h1>
+    <a href="{% url 'Basic_app:relative' %}">Relative</a>
+    {% endblock %}
+</body>
+</html>
